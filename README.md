@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to your new dbt project!
 
 ### Using the starter project
@@ -13,3 +14,7 @@ Try running the following commands:
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
 - Find [dbt events](https://events.getdbt.com) near you
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+=======
+# dbt-airbnb-transformation
+A dbt-powered data transformation pipeline for Airbnb analytics, focusing on cleaning, modeling, and optimizing Airbnb listing and booking data for insights.
+>>>>>>> 5826ea8bd80e4d55dc00f709e563f07591c5f109
