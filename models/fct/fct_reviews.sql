@@ -1,12 +1,13 @@
 {{
     config(
         materialized='incremental',
-        on_schema_change='fail'
+        on_schema_change='=fail'
     )
 }}
 
 with src_reviews as (
     select 
+    {{ dbt_utils.generate_surrogate_key(['listing_id', 'review_date', 'reviewer_name', 'review_text']) }} AS review_id,
     *
     from {{ ref('src_reviews')}}
 )
