@@ -95,10 +95,7 @@ airbnb_project:
 Now, move to the Dagster project directory and start the Dagster UI and dbt pipeline:  
 ```bash
 cd ../dagster_project
-export DAGSTER_DBT_PARSE_PROJECT_ON_LOAD=1  # For macOS/Linux
-set DAGSTER_DBT_PARSE_PROJECT_ON_LOAD=1     # For Windows PowerShell
-
-dagster dev
+DAGSTER_DBT_PARSE_PROJECT_ON_LOAD=1 dagster dev # For macOS/Linux
 ```
 This will launch the Dagster **webserver** and automatically parse your dbt project.
 
