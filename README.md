@@ -140,8 +140,12 @@ dbt source freshness
 ```bash
 dbt snapshot
 ```
+### 7️⃣ Passing a time range to our incremental model
+```
+dbt run --select fct_reviews  --vars '{start_date: "2024-02-15 00:00:00", end_date: "2024-03-15 23:59:59"}'
+```
 
-### 7️⃣ Run dbt with Dagster  
+### 8️⃣ Run dbt with Dagster  
 Once the Dagster UI is running, you can trigger dbt runs from the Dagster dashboard. Alternatively, execute:  
 ```bash
 dagster pipeline execute -p dbt_airbnb_pipeline
