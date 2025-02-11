@@ -183,5 +183,5 @@ dbt-airbnb-transformation/
 
 ## Feel free to fork the repo!!  
 
-## Happy Coding
+## Happy Coding!!
 
