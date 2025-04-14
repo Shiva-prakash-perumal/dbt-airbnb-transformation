@@ -1,7 +1,7 @@
 # dbt Airbnb Transformation  
 
 ## Overview  
-This project implements **dbt (Data Build Tool)** to transform and model Airbnb data using **Snowflake** as the database. It leverages **modular SQL development** to create **structured, reusable, and optimized data models** for better analytics. The project follows **best practices for ELT (Extract, Load, Transform) workflows**, improving data consistency, efficiency, and scalability.
+This project implements **dbt (Data Build Tool)** to transform and model Airbnb data using **Snowflake** as the database. It leverages **modular SQL development** to create **structured, reusable, and optimized data models** for better analytics. The project follows **best practices for ELT (Extract, Load, Transform) workflows**, improving data consistency, efficiency, and scalability. 
 
 ---
 
